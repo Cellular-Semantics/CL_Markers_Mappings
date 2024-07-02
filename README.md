@@ -28,7 +28,7 @@ STATUS: DRAFT
 
 2. **Run the UniProt Mapping Script**:
     ```sh
-    python uniprot_mapping.py
+    python3 uniprot_mapping.py
     ```
 
     - This script will map gene markers to UniProt IDs for human and mouse, and outputs the information into a CSV file.
