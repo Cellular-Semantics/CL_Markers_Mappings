@@ -8,7 +8,7 @@ STATUS: DRAFT
 ## Prerequisites
 
 1. **Ensure Python is installed**:
-    - If you don't have Python 3 installed, you can download it from [python.org](https://www.python.org/downloads/).
+   If you don't have Python 3 installed, you can download it from [python.org](https://www.python.org/downloads/).
    
 2. **Install the required packages:**
 
