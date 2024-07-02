@@ -29,8 +29,7 @@ STATUS: DRAFT
     ```
 
     - This script will map gene markers to UniProt IDs for human and mouse, and outputs the information into a CSV file.
-    - The CSV file generated is named `uniprot_mapping.csv` in the `CL_Markers_Mappings` directory.
-    - The CSV file contains the UniProt IDs and additional information for the specified gene markers.
+    - The CSV file generated is named `uniprot_mapping.csv` in the `CL_Markers_Mappings` directory. The file contains the UniProt IDs and additional information for the specified gene markers.
 
 ## Customization
 
