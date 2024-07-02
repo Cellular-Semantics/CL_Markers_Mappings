@@ -5,18 +5,26 @@ A repository for mapping gene markers in CL to various external databases such a
 ## Status
 STATUS: DRAFT
 
-## Setup and Installation
+## Prerequisites
 
 1. **Ensure Python is installed**:
-    - If you don't have Python installed, you can download it from [python.org](https://www.python.org/downloads/).
+    - If you don't have Python 3 installed, you can download it from [python.org](https://www.python.org/downloads/).
+   
+2. **Install the required packages:**
 
-2. **Clone the repository**:
+    ```sh
+    pip install requests
+    ```
+
+## Setup and Installation
+
+1. **Clone the repository**:
     ```sh
     git clone https://github.com/Cellular-Semantics/CL_Markers_Mappings
     cd CL_Markers_Mappings
     ```
 
-3. **Install the required dependencies**:
+2. **Install the required dependencies**:
     ```sh
     pip install requests
     ```
@@ -33,13 +41,15 @@ STATUS: DRAFT
 
 ## Customization
 
-**Modify the Script**:
-    Update the `uniprot_mapping.py` script to include or exclude fields according to your requirements.
+**Modify the Script**: Update the `uniprot_mapping.py` script to include or exclude fields according to your requirements.
 
-    ```python
-    # Example: Customize fields
-    fields = "accession,id,reviewed,protein_name,gene_names,organism_id"
-    ```
+```python
+# Example: Customize fields
+params = {
+    "query": query,
+    "format": "json",
+    "fields": "accession,id,reviewed,protein_name,gene_names,organism_id"  # Customize these fields as needed
+}
 
 For a complete list of available fields, refer to the [UniProtKB Return Fields Documentation](https://www.uniprot.org/help/return_fields).
 
