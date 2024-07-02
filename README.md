@@ -45,7 +45,7 @@ params = {
     "format": "json",
     "fields": "accession,id,reviewed,protein_name,gene_names,organism_id"  # Customize these fields as needed
 }
-
+```
 
 For a complete list of available fields, refer to the [UniProtKB Return Fields Documentation](https://www.uniprot.org/help/return_fields).
 
