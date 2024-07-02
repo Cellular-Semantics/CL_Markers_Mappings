@@ -16,22 +16,17 @@ STATUS: DRAFT
     pip install requests
     ```
 
-## Setup and Installation
+## Setup and Usage 
 
 1. **Clone the repository**:
+   
     ```sh
     git clone https://github.com/Cellular-Semantics/CL_Markers_Mappings
     cd CL_Markers_Mappings
     ```
+    
 
-2. **Install the required dependencies**:
-    ```sh
-    pip install requests
-    ```
-
-## Usage
-
-1. **Run the UniProt Mapping Script**:
+2. **Run the UniProt Mapping Script**:
     ```sh
     python uniprot_mapping.py
     ```
