@@ -51,7 +51,7 @@ For a complete list of available fields, refer to the [UniProtKB Return Fields D
 
 ## Example Output
 
-The output CSV file (`uniprot_mapping.csv`) will contain the following columns:
+The output CSV file `uniprot_mapping.csv` will contain the following columns:
 
 | Marker | Organism | UniProt ID | Entry Name | Reviewed | Protein Names | Genes |
 |--------|----------|------------|------------|----------|---------------|-------|
