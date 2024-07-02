@@ -39,7 +39,7 @@ STATUS: DRAFT
 **Modify the Script**: Update the `uniprot_mapping.py` script to include or exclude fields according to your requirements.
 
 ```python
-# Example: Customize fields
+# Example
 params = {
     "query": query,
     "format": "json",
