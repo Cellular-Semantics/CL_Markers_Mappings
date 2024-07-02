@@ -42,7 +42,7 @@ STATUS: DRAFT
     fields = "accession,id,reviewed,protein_name,gene_names,organism_id"
     ```
 
-    For a complete list of available fields, refer to the [UniProtKB Return Fields Documentation](https://www.uniprot.org/help/return_fields).
+For a complete list of available fields, refer to the [UniProtKB Return Fields Documentation](https://www.uniprot.org/help/return_fields).
 
 ## Example Output
 
