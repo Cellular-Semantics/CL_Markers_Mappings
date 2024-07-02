@@ -12,7 +12,7 @@ STATUS: DRAFT
 
 2. **Clone the repository**:
     ```sh
-    git clone https://github.com/your-username/CL_Markers_Mappings.git
+    git clone https://github.com/Cellular-Semantics/CL_Markers_Mappings
     cd CL_Markers_Mappings
     ```
 
